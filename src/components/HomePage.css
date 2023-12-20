@@ -1,0 +1,31 @@
+/* HomeCards.css */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Menangani responsifitas pada layar kecil */
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out; /* Efek transisi ketika kartu dihover */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efek scaling saat dihover */
+}
+
+.card img {
+  max-width: 100%; /* Gambar tidak akan melebihi lebar kartu */
+  height: auto; /* Mempertahankan aspek rasio gambar */
+  border-bottom: 1px solid #ddd;
+}
+
+.card-caption {
+  padding: 16px;
+  text-align: center;
+}
