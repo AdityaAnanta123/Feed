@@ -1,11 +1,12 @@
-// src/components/Box.js
 import React from 'react';
-import './Box.css'; // Import the Box component styles
+import './Box.css'; // Import file CSS untuk styling
 
 const Box = ({ imageUrl, comment }) => {
   return (
     <div className="box-container">
-      <img className="box-image" src={imageUrl} alt="" />
+      <div className="box-image-wrapper">
+        <img src={imageUrl} alt="" className="box-image" />
+      </div>
       <p className="box-comment">{comment}</p>
     </div>
   );

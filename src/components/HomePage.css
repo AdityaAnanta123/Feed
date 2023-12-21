@@ -6,11 +6,15 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 300px;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
-  margin: 16px;
+  margin: 16px 7px; /* Mengurangi margin samping (horizontal) menjadi 8px */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out; /* Efek transisi ketika kartu dihover */
 }
@@ -26,6 +30,14 @@
 }
 
 .card-caption {
-  padding: 16px;
+  padding: 8px;
+  
   text-align: center;
+}
+.card-caption-wish {
+  padding-top: 8px; 
+  padding-bottom: 20px; 
+  padding-left: 16px; 
+  padding-right: 16px; 
+  text-align: center;/* Sesuaikan dengan jarak yang diinginkan */
 }
