@@ -1,9 +1,9 @@
 // HomePage.js
 import React from 'react';
 import './HomePage.css';
-import Image1 from '../images/1.jpg';
+import Image1 from '../images/dewi.jpg';
 import Image2 from '../images/2.jpg';
-import Image3 from '../images/abi.jpg';
+import Image3 from '../images/masker.jpg';
 import Image4 from '../images/4.jpg';
 import Image5 from '../images/5.jpg';
 // Import the styles for the home page
